@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm LIU, Zichen, a first-year Ph.D. student at [HKUST VisLab](http://vis.cse.ust.hk/), supervised by [Prof. QU, HUamin](http://huamin.org/). Before that, I got my B.S. degree in Data Science and Technology from HKUST, where I was honored to work with [Prof. WONG Raymond Chi Wing](https://www.cse.ust.hk/~raywong/) and [Prof. XU Dan](https://www.danxurgb.net/).
+Hi! I'm LIU, Zichen, a first-year Ph.D. student at [HKUST VisLab](http://vis.cse.ust.hk/), supervised by [Prof. QU, Huamin](http://huamin.org/). Before that, I got my B.S. degree in Data Science and Technology from HKUST, where I was honored to work with [Prof. WONG Raymond Chi Wing](https://www.cse.ust.hk/~raywong/) and [Prof. XU Dan](https://www.danxurgb.net/).
 
 Currently, my research interests mainly focus on Human-AI Collaboration and Computer Vision.
 
