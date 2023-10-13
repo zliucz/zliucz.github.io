@@ -19,17 +19,15 @@ Education
 *September 2023-present*
   
 * **Hong Kong University of Science and Technology**    
-**BS in Data Science and Technology**     
+**BS in Data Science and Technology, First-Class Honor**     
 *September 2019 to June 2023*  
-*Graduated with First-Class honor*
 
 Intern & Work Experience
 ----
-* **Apple, Beijing, China**   
-*June 2023 to August 2023*    
-Position: Machine Learning Engineer 
-Projects:   
-  * SO Forecast on iPhone using Deep Learning
+* **Apple, Beijing, China** \
+**Position: Machine Learning Engineer Intern** \
+*June 2023 to August 2023* \
+Project: SO Forecast on iPhone using Deep Learning
  
 Extra-curriculum Activities
 ----
