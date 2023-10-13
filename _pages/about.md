@@ -31,4 +31,4 @@ Project: SO Forecast on iPhone using Deep Learning
  
 Extra-curriculum Activities
 ----
-When I'm not working, I enjoy playing table tennis 🏓 and basketball 🏀. I was the table tennis champion in my High School 😎 and a member of the HKUST Mainland Student Basketball Team ⛹️.
+When I'm not working, I enjoy playing table tennis and basketball. I was the table tennis champion in my High School 😎🏓 and a member of the HKUST Mainland Student Basketball Team ⛹️.
