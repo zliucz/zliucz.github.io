@@ -5,7 +5,7 @@ main:
     pdf: https://arxiv.org/abs/2411.09703
     page: https://magicquill.art/demo/
     image: ./assets/img/magicquill2.gif
-    others: <img src="https://img.shields.io/github/stars/magic-quill/MagicQuill?style=social" alt="GitHub stars" style="vertical-align:middle; margin-top:-3px;">
+    others: <a href="https://github.com/magic-quill/MagicQuill"><img src="https://img.shields.io/github/stars/magic-quill/MagicQuill?style=social" alt="GitHub stars" style="vertical-align:middle; margin-top:-3px;"></a>
 
   - title: "Memory Reviver: Supporting Photo-Collection Reminiscence for People with Visual Impairment via a Proactive Chatbot"
     authors: Shuchang Xu, Chang Chen, <strong>Zichen Liu</strong>, Xiaofu Jin, Lin-Ping Yuan, Yukang Yan, Huamin Qu
@@ -20,4 +20,4 @@ main:
     pdf: https://arxiv.org/abs/2404.11614
     page: https://animate-your-word.github.io/demo/
     image: ./assets/img/dynamic_typography.gif
-    others: <img src="https://img.shields.io/github/stars/zliucz/animate-your-word?style=social" alt="GitHub stars" style="vertical-align:middle; margin-top:-3px;">
+    others: <a href="https://github.com/zliucz/animate-your-word"><img src="https://img.shields.io/github/stars/zliucz/animate-your-word?style=social" alt="GitHub stars" style="vertical-align:middle; margin-top:-3px;"></a>
