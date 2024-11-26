@@ -3,7 +3,7 @@ layout: homepage
 ---
 
 ## About Me
-Nice to meet you! I am Zichen LIU (刘子辰), currently a Ph.D. candidate in HKUST <a href="https://cqf.io/lab.html">Visual Intelligence Lab</a>, at the Department of Computer Science and Engineering of the Hong Kong University of Science and Technology (HKUST), supervised by <a href="https://cqf.io/">Prof. Qifeng CHEN</a>. Before that, I got my B.S. degree in Data Science and Technology from HKUST, where I was honored to work with [Prof. QU, Huamin](http://www.huamin.org/), [Prof. WONG, Raymond Chi Wing](https://www.cse.ust.hk/~raywong/) and [Prof. XU, Dan](https://www.danxurgb.net/).
+Nice to meet you! I am Zichen LIU (刘子辰), currently a 2nd year Ph.D. student in HKUST <a href="https://cqf.io/lab.html">Visual Intelligence Lab</a>, at the Department of Computer Science and Engineering of the Hong Kong University of Science and Technology (HKUST), supervised by <a href="https://cqf.io/">Prof. Qifeng CHEN</a>. Before that, I got my B.S. degree in Data Science and Technology from HKUST, where I was honored to work with [Prof. QU, Huamin](http://www.huamin.org/), [Prof. WONG, Raymond Chi Wing](https://www.cse.ust.hk/~raywong/) and [Prof. XU, Dan](https://www.danxurgb.net/).
 
 My research interests lie in Generative AI, Human-AI Collaboration. I'm particularly interested in developing AI tools that can understand and execute creative intentions without requiring users to master complex skills, essentially making advanced AI capabilities feel natural and effortless to use.
 
