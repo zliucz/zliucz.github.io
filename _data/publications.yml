@@ -4,7 +4,7 @@ main:
     conference: Arxiv
     pdf: https://arxiv.org/abs/2411.09703
     page: https://magicquill.art/demo/
-    image: ./assets/img/magicquill.gif
+    image: ./assets/img/magicquill2.gif
     others: <img src="https://img.shields.io/github/stars/magic-quill/MagicQuill?style=social" alt="GitHub stars" style="vertical-align:middle; margin-top:-3px;">
 
   - title: "Memory Reviver: Supporting Photo-Collection Reminiscence for People with Visual Impairment via a Proactive Chatbot"
