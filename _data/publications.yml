@@ -1,6 +1,6 @@
 main:
   - title: "MagicQuill: An Intelligent Interactive Image Editing System"
-    authors: <strong>Zichen Liu *</strong>, Yue Yu*, Hao Ouyang, Qiuyu Wang, Ka Leong Cheng, Wen Wang, Zhiheng Liu, Qifeng Chen, Yujun Shen
+    authors: <strong>Zichen Liu *</strong>, Yue Yu *, Hao Ouyang, Qiuyu Wang, Ka Leong Cheng, Wen Wang, Zhiheng Liu, Qifeng Chen, Yujun Shen
     conference: Arxiv
     pdf: https://arxiv.org/abs/2411.09703
     page: https://magicquill.art/demo/
