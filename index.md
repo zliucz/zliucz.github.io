@@ -29,7 +29,7 @@ I enjoy engaging in communication with others, not only limited to scientific re
 
 
 ## News
-- **[Dec 4, 2024]** 🎤 Gave an [online talk (Chinese)](https://www.bilibili.com/video/BV1Cxi9YHEu8/?vd_source=4a95f850e3e8a30519543dbad4753232) with my co-author about [MagicQuill](https://magicquill.art/demo/), invited by ModelScope at Alibaba DAMO Academy.
+- **[Dec 4, 2024]** 🎤 Gave an [online talk (Chinese)](https://www.bilibili.com/video/BV1Cxi9YHEu8/?vd_source=4a95f850e3e8a30519543dbad4753232) with my co-author [Yue Yu](https://bruceyyu.github.io/) about [MagicQuill](https://magicquill.art/demo/), invited by ModelScope at Alibaba DAMO Academy.
 - **[Nov 14, 2024]** My research work [MagicQuill: An Intelligent Interactive Image Editing System](https://arxiv.org/abs/2411.09703) has been released. Code and demo available at [here](https://magicquill.art/demo/).
 - **[June 1, 2024]** I joined Ant Group as a research intern.
 - **[Apr 17, 2024]** My first research work [Dynamic Typography: Bringing Text to Life via Video Diffusion Prior](https://arxiv.org/abs/2404.11614) has been released. Code and demo available at [here](https://animate-your-word.github.io/demo/).
