@@ -3,16 +3,16 @@ layout: homepage
 ---
 
 ## About Me
-Nice to meet you! I am Zichen LIU (刘子辰), currently a 2nd year Ph.D. student in HKUST <a href="https://cqf.io/lab.html">Visual Intelligence Lab</a>, at the Department of Computer Science and Engineering of the Hong Kong University of Science and Technology (HKUST), supervised by <a href="https://cqf.io/">Prof. Qifeng CHEN</a>. Before that, I got my B.S. degree in Data Science and Technology from HKUST, where I was honored to work with [Prof. QU, Huamin](http://www.huamin.org/), [Prof. WONG, Raymond Chi Wing](https://www.cse.ust.hk/~raywong/) and [Prof. XU, Dan](https://www.danxurgb.net/).
+Nice to meet you! I am Zichen LIU (刘子辰), currently a 2nd year Ph.D. student in <a href="https://cqf.io/lab.html">Visual Intelligence Lab</a>, at the Department of Computer Science and Engineering (CSE) of the Hong Kong University of Science and Technology (HKUST), supervised by <a href="https://cqf.io/">Prof. Qifeng CHEN</a>. Before that, I got my B.S. degree in Data Science and Technology from HKUST, where I was honored to work with [Prof. QU, Huamin](http://www.huamin.org/), [Prof. WONG, Raymond Chi Wing](https://www.cse.ust.hk/~raywong/) and [Prof. XU, Dan](https://www.danxurgb.net/).
 
-My research interests lie in Generative AI, Human-AI Collaboration. I'm particularly interested in developing AI tools that can understand and execute creative intentions without requiring users to master complex skills, essentially making advanced AI capabilities feel natural and effortless to use.
+My research interests lie in Generative AI and Human-AI Collaboration. I'm particularly interested in developing AI tools that can understand and execute creative intentions without requiring users to master complex skills, essentially making advanced AI capabilities feel natural and effortless to use.
 
 I enjoy engaging in communication with others, not only limited to scientific research. Feel free to reach out to me if you have any questions. When I'm not working, I enjoy playing table tennis and basketball. I was the table tennis champion in my High School 😎🏓 and a member of the HKUST Mainland Student Basketball Team ⛹️.
 
 ## Research Interests
 
 - **Generative AI:** I focus on developing advanced AI techniques that push the boundaries of creative expression, from image, video to animation.
-- **Human AI Collaboration:** I am passionate about designing intuitive systems enabling users to harness AI tools through natural interactions without requiring technical expertise.
+- **Human-AI Collaboration:** I am passionate about designing intuitive systems enabling users to harness AI tools through natural interactions without requiring technical expertise.
 
 {% include_relative _includes/publications.md %}
 
