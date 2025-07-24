@@ -20,4 +20,5 @@ main:
     pdf: https://arxiv.org/abs/2404.11614
     page: https://animate-your-word.github.io/demo/
     image: ./assets/img/dynamic_typography.gif
+    notes: Oral Presentation
     others: <a href="https://github.com/zliucz/animate-your-word"><img src="https://img.shields.io/github/stars/zliucz/animate-your-word?style=social" alt="GitHub stars" style="vertical-align:middle; margin-top:-3px;"></a>
