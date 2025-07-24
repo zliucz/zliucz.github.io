@@ -1,7 +1,7 @@
 main:
   - title: "MagicQuill: An Intelligent Interactive Image Editing System"
     authors: <strong>Zichen Liu *</strong>, Yue Yu *, Hao Ouyang, Qiuyu Wang, Ka Leong Cheng, Wen Wang, Zhiheng Liu, Qifeng Chen, Yujun Shen
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025
+    conference: CVPR, 2025
     pdf: https://arxiv.org/abs/2411.09703
     page: https://magicquill.art/demo/
     image: ./assets/img/magicquill2.gif
@@ -9,14 +9,14 @@ main:
 
   - title: "Memory Reviver: Supporting Photo-Collection Reminiscence for People with Visual Impairment via a Proactive Chatbot"
     authors: Shuchang Xu, Chang Chen, <strong>Zichen Liu</strong>, Xiaofu Jin, Lin-Ping Yuan, Yukang Yan, Huamin Qu
-    conference: ACM Symposium on User Interface Software and Technology (UIST), 2024
+    conference: UIST, 2024
     pdf: https://dl.acm.org/doi/abs/10.1145/3654777.3676336
     video: https://www.youtube.com/watch?v=GOZ4DWdUdc0
     image: ./assets/img/memory.png
 
   - title: "Dynamic Typography: Bringing Text to Life via Video Diffusion Prior"
     authors: <strong>Zichen Liu *</strong>, Yihao Meng *, Hao Ouyang, Yue Yu, Bolin Zhao, Daniel Cohen-Or, Huamin Qu
-    conference: IEEE/CVF International Conference on Computer Vision (ICCV), <span style="color: red; font-weight: bold;">Oral</span>, 2025
+    conference: ICCV, 2025 <span style="color: red; font-weight: bold;">(Oral)</span>,
     pdf: https://arxiv.org/abs/2404.11614
     page: https://animate-your-word.github.io/demo/
     image: ./assets/img/dynamic_typography.gif
