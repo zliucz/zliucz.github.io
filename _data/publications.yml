@@ -16,7 +16,7 @@ main:
 
   - title: "Dynamic Typography: Bringing Text to Life via Video Diffusion Prior"
     authors: <strong>Zichen Liu *</strong>, Yihao Meng *, Hao Ouyang, Yue Yu, Bolin Zhao, Daniel Cohen-Or, Huamin Qu
-    conference: ICCV, 2025 (Oral)
+    conference: ICCV, 2025 (<span style="color: red; font-weight: bold;">Oral</span>)
     pdf: https://arxiv.org/abs/2404.11614
     page: https://animate-your-word.github.io/demo/
     image: ./assets/img/dynamic_typography.gif
