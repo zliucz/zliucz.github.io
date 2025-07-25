@@ -29,6 +29,8 @@ I enjoy engaging in communication with others, not only limited to scientific re
 
 
 ## News
+- **[July 24, 2025]** 🌴 [Dynamic Typography](https://arxiv.org/abs/2411.09703) was accepted by ICCV 2025 as an Oral Paper 😎 See you in Hawaii!
+- **[Feb 27, 2025]** ✅ [MagicQuill](https://arxiv.org/abs/2411.09703) was accepted by CVPR 2025! See you in Nashville, Tennessee.
 - **[Dec 4, 2024]** 🎤 Gave an [online talk (Chinese)](https://www.bilibili.com/video/BV1Cxi9YHEu8/?vd_source=4a95f850e3e8a30519543dbad4753232) with my co-author [Yue Yu](https://bruceyyu.github.io/) about [MagicQuill](https://magicquill.art/demo/), invited by ModelScope at Alibaba DAMO Academy.
 - **[Nov 14, 2024]** My research work [MagicQuill: An Intelligent Interactive Image Editing System](https://arxiv.org/abs/2411.09703) has been released. Code and demo available at [here](https://magicquill.art/demo/).
 - **[June 1, 2024]** I joined Ant Group as a research intern.
