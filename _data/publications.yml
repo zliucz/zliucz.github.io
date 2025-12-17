@@ -1,4 +1,12 @@
 main:
+  - title: "MagicQuillV2: Precise and Interactive Image Editing with Layered Visual Cues"
+    authors: <strong>Zichen Liu *</strong>, Yue Yu *, Hao Ouyang, Qiuyu Wang, Shuailei Ma, Ka Leong Cheng, Wen Wang, Qingyan Bai, Yuxuan Zhang, Yanhong Zeng, Yixuan Li, Xing Zhu, Yujun Shen, Qifeng Chen
+    conference: Arxiv, 2025
+    pdf: https://arxiv.org/abs/2512.03046
+    page: https://magicquill.art/v2/
+    image: ./assets/img/magicquillv2.gif
+    others: <a href="https://github.com/zliucz/MagicQuillV2"><img src="https://img.shields.io/github/stars/zliucz/MagicQuillV2?style=social" alt="GitHub stars" style="vertical-align:middle; margin-top:-3px;"></a>
+
   - title: "MagicQuill: An Intelligent Interactive Image Editing System"
     authors: <strong>Zichen Liu *</strong>, Yue Yu *, Hao Ouyang, Qiuyu Wang, Ka Leong Cheng, Wen Wang, Zhiheng Liu, Qifeng Chen, Yujun Shen
     conference: CVPR, 2025
