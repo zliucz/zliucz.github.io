@@ -15,12 +15,12 @@ main:
     image: ./assets/img/magicquill2.gif
     others: <a href="https://github.com/magic-quill/MagicQuill"><img src="https://img.shields.io/github/stars/magic-quill/MagicQuill?style=social" alt="GitHub stars" style="vertical-align:middle; margin-top:-3px;"></a>
 
-  - title: "Memory Reviver: Supporting Photo-Collection Reminiscence for People with Visual Impairment via a Proactive Chatbot"
-    authors: Shuchang Xu, Chang Chen, <strong>Zichen Liu</strong>, Xiaofu Jin, Lin-Ping Yuan, Yukang Yan, Huamin Qu
-    conference: UIST, 2024
-    pdf: https://dl.acm.org/doi/abs/10.1145/3654777.3676336
-    video: https://www.youtube.com/watch?v=GOZ4DWdUdc0
-    image: ./assets/img/memory.png
+  # - title: "Memory Reviver: Supporting Photo-Collection Reminiscence for People with Visual Impairment via a Proactive Chatbot"
+  #   authors: Shuchang Xu, Chang Chen, <strong>Zichen Liu</strong>, Xiaofu Jin, Lin-Ping Yuan, Yukang Yan, Huamin Qu
+  #   conference: UIST, 2024
+  #   pdf: https://dl.acm.org/doi/abs/10.1145/3654777.3676336
+  #   video: https://www.youtube.com/watch?v=GOZ4DWdUdc0
+  #   image: ./assets/img/memory.png
 
   - title: "Dynamic Typography: Bringing Text to Life via Video Diffusion Prior"
     authors: <strong>Zichen Liu *</strong>, Yihao Meng *, Hao Ouyang, Yue Yu, Bolin Zhao, Daniel Cohen-Or, Huamin Qu
