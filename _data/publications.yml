@@ -1,4 +1,11 @@
 main:
+- title: "CausalCine: Real-time Autoregressive Generation for Multi-Shot Video Narratives"
+    authors: Yihao Meng *, <strong>Zichen Liu *</strong>, Hao Ouyang, Qiuyu Wang, Ka Leong Cheng, Yue Yu, Hanlin Wang, Haobo Li, Jiapeng Zhu, Yanhong Zeng, Xing Zhu, Yujun Shen, Qifeng Chen, Huamin Qu
+    conference: NeurIPS
+    pdf: https://arxiv.org/abs/2605.12496 
+    page: https://yihao-meng.github.io/CausalCine
+    image: ./assets/img/causalcine.gif
+    
   - title: "MagicQuillV2: Precise and Interactive Image Editing with Layered Visual Cues"
     authors: <strong>Zichen Liu *</strong>, Yue Yu *, Hao Ouyang, Qiuyu Wang, Shuailei Ma, Ka Leong Cheng, Wen Wang, Qingyan Bai, Yuxuan Zhang, Yanhong Zeng, Yixuan Li, Xing Zhu, Yujun Shen, Qifeng Chen
     conference: CVPR, 2026
