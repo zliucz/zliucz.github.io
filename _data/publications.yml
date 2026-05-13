@@ -1,7 +1,7 @@
 main:
 - title: "CausalCine: Real-time Autoregressive Generation for Multi-Shot Video Narratives"
     authors: Yihao Meng *, <strong>Zichen Liu *</strong>, Hao Ouyang, Qiuyu Wang, Ka Leong Cheng, Yue Yu, Hanlin Wang, Haobo Li, Jiapeng Zhu, Yanhong Zeng, Xing Zhu, Yujun Shen, Qifeng Chen, Huamin Qu
-    conference: NeurIPS
+    conference: Arxiv
     pdf: https://arxiv.org/abs/2605.12496 
     page: https://yihao-meng.github.io/CausalCine
     image: ./assets/img/causalcine.gif
