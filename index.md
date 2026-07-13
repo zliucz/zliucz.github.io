@@ -29,6 +29,7 @@ I enjoy engaging in communication with others, not only limited to scientific re
 
 
 ## News
+- **[Apr 9, 2026]** 🏔️ [MagicQuill V2](https://arxiv.org/abs/2512.03046) was accepted by CVPR 2026. 😎 See you in Denver!
 - **[Sep 24, 2025]** 🎆 [Dynamic Typography](https://arxiv.org/abs/2411.09703) was nominated as ICCV 2025 Best Paper Award Finalist!!!
 - **[July 24, 2025]** 🌴 [Dynamic Typography](https://arxiv.org/abs/2411.09703) was accepted by ICCV 2025 as an Oral Paper 😎 See you in Hawaii!
 - **[Feb 27, 2025]** ✅ [MagicQuill](https://arxiv.org/abs/2411.09703) was accepted by CVPR 2025! See you in Nashville, Tennessee.
