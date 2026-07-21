@@ -1,0 +1,153 @@
+featured:
+  - id: lingbot-world-infinity
+    index: "01"
+    title: LingBot-World-Infinity
+    role: Core contributor · Post-training & deployment
+    summary: Infinite, real-time interactive worlds that respond to camera controls, actions, and evolving user intent.
+    media: /assets/media/lingbot-world-infinity.mp4
+    poster: /assets/media/lingbot-world-infinity.jpg
+    media_label: LingBot-World-Infinity real-time world generation preview
+    links:
+      - label: Paper
+        url: https://arxiv.org/abs/2607.07534
+      - label: Project page
+        url: https://technology.robbyant.com/lingbot-world-v2
+      - label: Code
+        url: https://github.com/robbyant/lingbot-world-v2
+
+  - id: magicquill-series
+    index: "02"
+    title: MagicQuill Series
+    role: Lead researcher · First author
+    summary: An intelligent interactive image editing system that turns simple visual cues into precise edits.
+    outcome: MagicQuill V1 became one of Hugging Face's most visited editing projects and earned broad open-source adoption. V2 extends the same interaction language with layered visual cues.
+    previews:
+      - id: v1
+        label: V1
+        media: /assets/media/magicquill-v1.mp4
+        poster: /assets/media/magicquill-v1.jpg
+        media_label: MagicQuill V1 interactive image editing preview
+      - id: v2
+        label: V2
+        media: /assets/media/magicquill-v2.mp4
+        poster: /assets/media/magicquill-v2.jpg
+        media_label: MagicQuill V2 layered image editing preview
+    tags:
+      - V1 · CVPR 2025
+      - V2 · CVPR 2026
+      - Open source
+    metrics:
+      - label: Code
+        icon: star
+        url: https://github.com/ant-research/MagicQuill
+        source: github-stars
+        api_url: https://api.github.com/repos/ant-research/MagicQuill
+        fallback: 3.7K
+        suffix: stars
+      - label: Hugging Face
+        icon: huggingface
+        url: https://huggingface.co/spaces/AI4Editing/MagicQuill
+        source: hf-likes
+        api_url: https://huggingface.co/api/spaces/AI4Editing/MagicQuill
+        fallback: 2.3K
+        suffix: likes
+        secondary: Nearly 8M visits
+    releases:
+      - label: V1 · The breakout release
+        links:
+          - label: Paper · CVPR 2025
+            url: https://arxiv.org/abs/2411.09703
+          - label: Project page
+            url: https://magicquill.art/demo/
+          - label: Code
+            url: https://github.com/ant-research/MagicQuill
+          - label: Hugging Face demo
+            icon: huggingface
+            url: https://huggingface.co/spaces/AI4Editing/MagicQuill
+      - label: V2 · Series extension
+        links:
+          - label: Paper · CVPR 2026
+            url: https://arxiv.org/abs/2512.03046
+          - label: Project page
+            url: https://magicquill.art/v2/
+          - label: Code
+            url: https://github.com/zliucz/MagicQuillV2
+          - label: Hugging Face demo
+            icon: huggingface
+            url: https://huggingface.co/spaces/AI4Editing/MagicQuillV2
+
+selected:
+  - id: dynamic-typography
+    title: Dynamic Typography
+    venue: ICCV 2025 · Oral
+    role: First author
+    summary: Bringing text to life through video diffusion priors.
+    award: Best Paper Award Finalist
+    media: /assets/media/dynamic-typography.mp4
+    poster: /assets/media/dynamic-typography.jpg
+    media_label: Dynamic Typography animated word generation preview
+    links:
+      - label: Read paper
+        url: https://arxiv.org/abs/2404.11614
+      - label: Project page
+        url: https://animate-your-word.github.io/demo/
+      - label: Code
+        url: https://github.com/zliucz/animate-your-word
+        metric_source: github-stars
+        api_url: https://api.github.com/repos/zliucz/animate-your-word
+        fallback: "353"
+
+  - id: publication-magicquill
+    title: MagicQuill
+    venue: CVPR 2025
+    role: First author
+    summary: An intelligent interactive image editing system driven by intuitive visual cues.
+    highlight: 3.7K stars · Nearly 8M demo visits
+    media: /assets/media/magicquill-v1.mp4
+    poster: /assets/media/magicquill-v1.jpg
+    media_label: MagicQuill interactive image editing preview
+    links:
+      - label: Read paper
+        url: https://arxiv.org/abs/2411.09703
+      - label: Project page
+        url: https://magicquill.art/demo/
+      - label: Code
+        url: https://github.com/ant-research/MagicQuill
+        metric_source: github-stars
+        api_url: https://api.github.com/repos/ant-research/MagicQuill
+        fallback: 3.7K
+
+  - id: publication-magicquill-v2
+    title: MagicQuillV2
+    venue: CVPR 2026
+    role: First author
+    summary: Precise interactive image editing with layered visual cues.
+    highlight: The second generation of the MagicQuill research line
+    media: /assets/media/magicquill-v2.mp4
+    poster: /assets/media/magicquill-v2.jpg
+    media_label: MagicQuillV2 layered image editing preview
+    links:
+      - label: Read paper
+        url: https://arxiv.org/abs/2512.03046
+      - label: Project page
+        url: https://magicquill.art/v2/
+      - label: Code
+        url: https://github.com/zliucz/MagicQuillV2
+        metric_source: github-stars
+        api_url: https://api.github.com/repos/zliucz/MagicQuillV2
+        fallback: "153"
+
+  - id: causalcine
+    title: CausalCine
+    venue: arXiv 2026
+    role: Co-first author
+    summary: Real-time autoregressive generation for multi-shot video narratives.
+    highlight: Causal video generation · Multi-shot storytelling
+    media: /assets/media/causalcine.mp4
+    poster: /assets/media/causalcine.jpg
+    media_label: CausalCine multi-shot video generation interface preview
+    links:
+      - label: Read paper
+        url: https://arxiv.org/abs/2605.12496
+      - label: Project page
+        url: https://yihao-meng.github.io/CausalCine/

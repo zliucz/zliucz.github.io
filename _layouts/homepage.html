@@ -1,123 +1,348 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<!doctype html>
+<html lang="{{ site.lang | default: 'en-US' }}">
   <head>
-    <title>{{ site.title }} | {{site.affiliation}}</title>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ site.description }}">
-    {% if site.keywords %}
     <meta name="keywords" content="{{ site.keywords }}">
-    {% endif %}
-    {% if site.canonical %}
-    <link rel="canonical" href="{{ site.canonical }}"/>
-    {% endif %}
+    <meta name="theme-color" content="#0b0d10">
 
-    <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
-    <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
-    <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
+    <title>{{ site.title }} · Generative AI Researcher</title>
+    <link rel="canonical" href="{{ site.canonical }}">
+    <link rel="icon" href="{{ '/assets/img/favicon.JPG' | relative_url }}" type="image/jpeg">
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+    <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
 
-    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
-    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin=anonymous>
-
-    {% if site.font == "Sans Serif" %}
-    <link rel="stylesheet" href="./assets/css/font_sans_serif.css">
-    {% else %}
-    <link rel="stylesheet" href="./assets/css/font.css">
-    {% endif %}
-    {% if site.auto_dark_mode %}
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/publications.css">
-    {% else %}
-    <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
-    <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
-    {% endif %}
-
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ site.title }} · Generative AI Researcher">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:url" content="{{ site.canonical }}">
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        
-        {% if site.avatar %}
-        <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
-        {% endif %}
+    {% assign profile = site.data.profile %}
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
-        <h1>{{ site.title }}</h1>
-
-        {% if site.position %}
-        <position style="font-size:1.10rem;">{{ site.position }}</position>
-        <br>
-        {% endif %}
-        {% if site.affiliation %}
-        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
-        <br>
-        {% endif %}
-        {% if site.email %}
-        <email>{{ site.email }}</email>
-        {% endif %}
-
-        <br>
-        <br>
-        <div class="social-icons">
-        {% if site.google_scholar %}
-        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
-          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
-        </a>  
-        {% endif %}
-
-        {% if site.cv_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
-          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
+    <header class="site-header" data-site-header>
+      <nav class="nav-shell" aria-label="Main navigation">
+        <a class="wordmark" href="#top" aria-label="Zichen Liu, back to top">
+          <span class="wordmark-name">{{ profile.name }}</span>
         </a>
-        {% endif %}
 
-        {% if site.github_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
-          <i class="fab fa-github"></i>
-        </a>
-        {% endif %}
-
-        {% if site.linkedin %}
-        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        {% endif %}
-
-        {% if site.twitter %}
-        <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
-          <i class="fab fa-twitter"></i>
-        </a>
-        {% endif %}
+        <div class="nav-links">
+          <a href="#work">Work</a>
+          <a href="#publications">Publications</a>
+          <a href="#about">About</a>
+          <a href="#news">News</a>
         </div>
-        <br>
 
-      </header>
-      <section>
+        <div class="nav-socials" aria-label="Profile links">
+          {% for link in profile.links limit: 2 %}
+            <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">
+              {{ link.short_label }} <span aria-hidden="true">↗</span>
+            </a>
+          {% endfor %}
+        </div>
+      </nav>
+    </header>
 
-      {{ content }}
+    <main id="main-content">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-shell">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span>{{ profile.eyebrow }}</p>
+            <h1 id="hero-title">{{ profile.headline }}</h1>
+            <p class="hero-meta">
+              <a href="{{ profile.affiliation_url }}" target="_blank" rel="noopener noreferrer">{{ profile.position }}</a>
+              <span aria-hidden="true">·</span>
+              <span>{{ profile.secondary_position }}</span>
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#work">Selected work <span aria-hidden="true">↓</span></a>
+              <a class="button" href="mailto:{{ profile.email }}">Email</a>
+              <a class="text-link" href="{{ profile.links[0].url }}" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
 
-      <br>
-
-      {% if site.enable_footnote %}
-      <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
-      {% endif %}
-
+          <figure class="hero-portrait">
+            <img src="{{ profile.portrait | relative_url }}" alt="{{ profile.portrait_alt }}" width="720" height="920">
+            <figcaption>
+              <span>Hokkaido · Winter 2023</span>
+            </figcaption>
+          </figure>
+        </div>
       </section>
-      <footer>
-        
-      </footer>
-    </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    {% if site.google_analytics %}
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', '{{ site.google_analytics }}', 'auto');
-      ga('send', 'pageview');
-    </script>
-    {% endif %}
+
+      <section class="section work-section" id="work" aria-labelledby="work-title">
+        <div class="section-shell">
+          <header class="section-heading">
+            <div>
+              <p class="section-kicker">Featured work</p>
+              <h2 id="work-title">Research built to be experienced.</h2>
+            </div>
+            <p>Two recent systems that connect generative modeling with responsive, real-world interaction.</p>
+          </header>
+
+          <div class="featured-projects">
+            {% for project in site.data.projects.featured %}
+              <article class="project-card" id="{{ project.id }}">
+                <div class="project-media"{% if project.previews %} data-preview-group{% endif %}>
+                  {% if project.previews %}
+                    <div class="preview-toggle" role="group" aria-label="Choose a {{ project.title }} preview">
+                      {% for preview in project.previews %}
+                        <button
+                          type="button"
+                          data-preview-button="{{ preview.id }}"
+                          aria-controls="{{ project.id }}-preview-{{ preview.id }}"
+                          aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}"
+                        >{{ preview.label }}</button>
+                      {% endfor %}
+                    </div>
+
+                    {% for preview in project.previews %}
+                      <video
+                        id="{{ project.id }}-preview-{{ preview.id }}"
+                        class="project-preview"
+                        data-project-video
+                        data-preview-panel="{{ preview.id }}"
+                        muted
+                        loop
+                        playsinline
+                        preload="metadata"
+                        poster="{{ preview.poster | relative_url }}"
+                        aria-label="{{ preview.media_label }}"
+                        aria-hidden="{% if forloop.first %}false{% else %}true{% endif %}"
+                        {% unless forloop.first %}hidden{% endunless %}
+                      >
+                        <source src="{{ preview.media | relative_url }}" type="video/mp4">
+                      </video>
+                    {% endfor %}
+                  {% else %}
+                    <video data-project-video muted loop playsinline preload="metadata" poster="{{ project.poster | relative_url }}" aria-label="{{ project.media_label }}">
+                      <source src="{{ project.media | relative_url }}" type="video/mp4">
+                    </video>
+                  {% endif %}
+                  <span class="media-index" aria-hidden="true">{{ project.index }}</span>
+                </div>
+
+                <div class="project-copy">
+                  <p class="project-role">{{ project.role }}</p>
+                  <h3>{{ project.title }}</h3>
+                  <p class="project-summary">{{ project.summary }}</p>
+                  {% if project.outcome %}<p class="project-outcome">{{ project.outcome }}</p>{% endif %}
+                </div>
+
+                <div class="project-footer">
+                  {% if project.releases %}
+                    <div class="release-list" aria-label="{{ project.title }} releases and links">
+                      {% for release in project.releases %}
+                        <div class="release-row">
+                          <p>{{ release.label }}</p>
+                          <div class="release-links">
+                            {% for link in release.links %}
+                              <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">
+                                {% if link.icon == 'huggingface' %}<span class="action-icon action-icon-huggingface" aria-hidden="true">🤗</span>{% endif %}
+                                {{ link.label }} <span aria-hidden="true">↗</span>
+                              </a>
+                            {% endfor %}
+                          </div>
+                        </div>
+                      {% endfor %}
+                    </div>
+                    {% if project.metrics or project.tags %}
+                      <div class="project-highlights">
+                        {% if project.metrics %}
+                          <div class="metric-list" aria-label="Live open-source metrics">
+                            {% for metric in project.metrics %}
+                              <a
+                                class="metric-card"
+                                href="{{ metric.url }}"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                data-live-metric
+                                data-metric-source="{{ metric.source }}"
+                                data-api-url="{{ metric.api_url }}"
+                              >
+                                <span class="metric-icon metric-icon-{{ metric.icon }}" aria-hidden="true">
+                                  {% if metric.icon == 'star' %}★{% elsif metric.icon == 'huggingface' %}🤗{% endif %}
+                                </span>
+                                <span class="metric-copy">
+                                  <span class="metric-label">{{ metric.label }}</span>
+                                  <strong><span data-metric-value aria-live="polite">{{ metric.fallback }}</span> {{ metric.suffix }}</strong>
+                                  {% if metric.secondary %}<small>{{ metric.secondary }}</small>{% endif %}
+                                </span>
+                                <span class="metric-arrow" aria-hidden="true">↗</span>
+                              </a>
+                            {% endfor %}
+                          </div>
+                        {% endif %}
+                        {% if project.tags %}
+                          <ul class="tag-list" aria-label="Project highlights">
+                            {% for tag in project.tags %}
+                              <li>{{ tag }}</li>
+                            {% endfor %}
+                          </ul>
+                        {% endif %}
+                      </div>
+                    {% endif %}
+                  {% else %}
+                    <div class="project-actions" aria-label="{{ project.title }} links">
+                      {% for link in project.links %}
+                        <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">
+                          {{ link.label }} <span aria-hidden="true">↗</span>
+                        </a>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </div>
+              </article>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+
+      <section class="section research-section" id="publications" aria-labelledby="research-title">
+        <div class="section-shell">
+          <header class="section-heading compact">
+            <div>
+              <p class="section-kicker">Publications</p>
+              <h2 id="research-title">First- and co-first-author work.</h2>
+            </div>
+          </header>
+
+          <div class="research-grid">
+            {% for project in site.data.projects.selected %}
+              <article class="research-card" id="{{ project.id }}">
+                <div class="research-media">
+                  <video data-project-video muted loop playsinline preload="metadata" poster="{{ project.poster | relative_url }}" aria-label="{{ project.media_label }}">
+                    <source src="{{ project.media | relative_url }}" type="video/mp4">
+                  </video>
+                </div>
+                <div class="research-copy">
+                  <div class="research-meta">
+                    <span>{{ project.venue }}</span>
+                    <span>{{ project.role }}</span>
+                  </div>
+                  <h3>{{ project.title }}</h3>
+                  <p>{{ project.summary }}</p>
+                  {% if project.award %}
+                    <div class="award-banner" aria-label="Award recognition">
+                      <span aria-hidden="true">★</span>
+                      <strong>{{ project.award }}</strong>
+                    </div>
+                  {% endif %}
+                  {% if project.highlight %}
+                    <strong class="research-highlight">{{ project.highlight }}</strong>
+                  {% endif %}
+                  <div class="inline-links" aria-label="{{ project.title }} links">
+                    {% for link in project.links %}
+                      <a
+                        href="{{ link.url }}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        {% if link.metric_source %}data-live-metric data-metric-source="{{ link.metric_source }}" data-api-url="{{ link.api_url }}"{% endif %}
+                      >
+                        {{ link.label }}
+                        {% if link.metric_source %}<span class="inline-star"><span aria-hidden="true">★</span> <span data-metric-value aria-live="polite">{{ link.fallback }}</span></span>{% endif %}
+                        <span aria-hidden="true">↗</span>
+                      </a>
+                    {% endfor %}
+                  </div>
+                </div>
+              </article>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about" aria-labelledby="about-title">
+        <div class="section-shell about-grid">
+          <div class="about-heading">
+            <p class="section-kicker">About</p>
+            <h2 id="about-title">Making advanced visual AI feel direct and usable.</h2>
+          </div>
+
+          <div class="about-copy">
+            {% for paragraph in profile.about %}
+              <p>{{ paragraph }}</p>
+            {% endfor %}
+            <ul class="focus-list" aria-label="Research focus">
+              {% for item in profile.focus %}
+                <li>{{ item }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section timeline-section" aria-label="Experience and education">
+        <div class="section-shell timeline-grid">
+          <div class="timeline-column">
+            <p class="section-kicker">Experience</p>
+            {% for item in site.data.experience.experience %}
+              <article class="timeline-item">
+                <div>
+                  <h3>{{ item.organization }}</h3>
+                  <p>{{ item.role }}</p>
+                  <small>{{ item.detail }}</small>
+                </div>
+                <div class="timeline-when">
+                  <span>{{ item.period }}</span>
+                  <small>{{ item.location }}</small>
+                </div>
+              </article>
+            {% endfor %}
+          </div>
+
+          <div class="timeline-column">
+            <p class="section-kicker">Education</p>
+            {% for item in site.data.experience.education %}
+              <article class="timeline-item">
+                <div>
+                  <h3>{{ item.organization }}</h3>
+                  <p>{{ item.role }}</p>
+                  <small>{{ item.detail }}</small>
+                </div>
+                <div class="timeline-when">
+                  <span>{{ item.period }}</span>
+                </div>
+              </article>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+
+      <section class="section news-section" id="news" aria-labelledby="news-title">
+        <div class="section-shell news-grid">
+          <header>
+            <p class="section-kicker">Latest news</p>
+            <h2 id="news-title">Recent milestones.</h2>
+          </header>
+          <ol class="news-list">
+            {% for item in site.data.news %}
+              <li>
+                <time>{{ item.date }}</time>
+                <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.text }} <span aria-hidden="true">↗</span></a>
+              </li>
+            {% endfor %}
+          </ol>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-shell">
+        <div>
+          <p class="footer-name">{{ profile.name }}</p>
+          <p>Generative AI · Interactive systems · Visual worlds</p>
+        </div>
+        <div class="footer-links">
+          <a href="mailto:{{ profile.email }}">{{ profile.email }}</a>
+          {% for link in profile.links %}
+            <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.short_label }} <span aria-hidden="true">↗</span></a>
+          {% endfor %}
+        </div>
+        <p class="footer-note">Designed and built with restraint.</p>
+      </div>
+    </footer>
   </body>
 </html>

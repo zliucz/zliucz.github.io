@@ -1,0 +1,23 @@
+experience:
+  - organization: Ant Group
+    role: Research Intern
+    period: Jun 2024 – Present
+    location: Hangzhou, China
+    detail: Interactive image editing, world models, and real-time generative systems.
+    url: https://shenyujun.github.io/
+  - organization: Apple
+    role: Machine Learning Engineer Intern
+    period: Jun – Aug 2023
+    location: Beijing, China
+    detail: Machine learning engineering.
+
+education:
+  - organization: The Hong Kong University of Science and Technology
+    role: Ph.D. in Computer Science and Engineering
+    period: 2023 – 2027 expected
+    detail: Visual Intelligence Lab · Advised by Prof. Qifeng Chen
+    url: https://cqf.io/
+  - organization: The Hong Kong University of Science and Technology
+    role: B.Sc. in Data Science and Technology
+    period: 2019 – 2023
+    detail: Graduated in the top 5%.

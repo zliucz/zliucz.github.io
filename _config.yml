@@ -1,48 +1,14 @@
-# Basic Information 
-title: Zichen LIU
-position: Ph.D. Student
-affiliation: HKUST Visual Intelligence Lab
-email: zliucz@connect.ust.hk
-
-# Search Engine Optimization (SEO)
-# The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: Zichen LIU
-description: HKUST, Ph.D. student, MagicQuill
+title: Zichen Liu
+description: Generative AI researcher building interactive systems for image, video, and open-ended worlds.
+keywords: Zichen Liu, generative AI, world models, image editing, video generation, MagicQuill, LingBot-World
 canonical: https://zliucz.github.io/
+lang: en-US
 
-# Links 
-# If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/citations?hl=en&user=4NJRXHkAAAAJ
-github_link: https://github.com/zliucz
-linkedin: https://www.linkedin.com/in/liu-zichen-b07330194/
-twitter: https://x.com/Zichen0915
-
-# Images (e.g., your profile picture and your website's favicon) 
-# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/avatar.JPG
-favicon: ./assets/img/favicon.JPG
-favicon_dark: ./assets/img/favicon-dark.JPG
-
-# Footnote
-# You may use the option to disable the footnote, "Welcome to my homepage!"
-enable_footnote: true
-
-# Auto Dark Mode
-# You may use the option to disable the automatic dark theme
-auto_dark_mode: true
-
-# Font
-# You can use this option to choose between Serif or Sans Serif fonts.
-font: "Serif" # or "Sans Serif"
-
-# The following files will be removed from the generated website.
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - README_zh_Hans.md
-  - README_zh_Hant.md
-  - README_de.md
   - LICENSE
-  - minimal-light.gemspec
-  - html_source_file/
+  - cv/
+  - tmp/
+  - output/
