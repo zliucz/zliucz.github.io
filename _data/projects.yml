@@ -1,9 +1,8 @@
 featured:
   - id: lingbot-world-infinity
-    index: "01"
     title: LingBot-World-Infinity
-    role: Core contributor · Post-training & deployment
-    summary: Infinite, real-time interactive worlds that respond to camera controls, actions, and evolving user intent.
+    role: Core Contributor
+    summary: A real-time world model for open-ended interaction through camera control, actions, and text.
     media: /assets/media/lingbot-world-infinity.mp4
     poster: /assets/media/lingbot-world-infinity.jpg
     media_label: LingBot-World-Infinity real-time world generation preview
@@ -16,10 +15,9 @@ featured:
         url: https://github.com/robbyant/lingbot-world-v2
 
   - id: magicquill-series
-    index: "02"
     title: MagicQuill Series
-    role: Lead researcher · First author
-    summary: An intelligent interactive image editing system that turns simple visual cues into precise edits.
+    role: First author and lead researcher
+    summary: Interactive image editing from free-form strokes, color, edge, and layered visual cues.
     outcome: MagicQuill V1 became one of Hugging Face's most visited editing projects and earned broad open-source adoption. V2 extends the same interaction language with layered visual cues.
     previews:
       - id: v1
@@ -32,10 +30,6 @@ featured:
         media: /assets/media/magicquill-v2.mp4
         poster: /assets/media/magicquill-v2.jpg
         media_label: MagicQuill V2 layered image editing preview
-    tags:
-      - V1 · CVPR 2025
-      - V2 · CVPR 2026
-      - Open source
     metrics:
       - label: Code
         icon: star
@@ -53,7 +47,7 @@ featured:
         suffix: likes
         secondary: Nearly 8M visits
     releases:
-      - label: V1 · The breakout release
+      - label: MagicQuill V1 · CVPR 2025
         links:
           - label: Paper · CVPR 2025
             url: https://arxiv.org/abs/2411.09703
@@ -64,7 +58,7 @@ featured:
           - label: Hugging Face demo
             icon: huggingface
             url: https://huggingface.co/spaces/AI4Editing/MagicQuill
-      - label: V2 · Series extension
+      - label: MagicQuill V2 · CVPR 2026
         links:
           - label: Paper · CVPR 2026
             url: https://arxiv.org/abs/2512.03046
@@ -101,7 +95,7 @@ selected:
     title: MagicQuill
     venue: CVPR 2025
     role: First author
-    summary: An intelligent interactive image editing system driven by intuitive visual cues.
+    summary: Interactive image editing from free-form strokes, color, and edge cues.
     highlight: 3.7K stars · Nearly 8M demo visits
     media: /assets/media/magicquill-v1.mp4
     poster: /assets/media/magicquill-v1.jpg
