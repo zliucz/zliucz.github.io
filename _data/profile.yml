@@ -1,6 +1,5 @@
 name: Zichen Liu
-eyebrow: Generative AI researcher
-headline: Interactive generation for images, video, and open‑ended worlds.
+headline: I build interactive generative systems for images, video, and world models.
 position: Ph.D. student at HKUST
 secondary_position: Research intern at Ant Group
 portrait: /assets/media/zichen-liu.jpg
@@ -21,8 +20,8 @@ links:
     url: https://www.linkedin.com/in/liu-zichen-b07330194/
 
 about:
-  - My research sits at the intersection of generative modeling, human-AI interaction, and real-time systems. I build models and tools that make visual creation more controllable, immediate, and accessible.
-  - My recent work moves from precise image editing with MagicQuill to real-time video generation and open-ended interactive worlds. I am especially interested in systems that understand creative intent and respond with useful, high-fidelity visual feedback.
+  - I am a Ph.D. student at HKUST, advised by Prof. Qifeng Chen, and a research intern at Ant Group. My work focuses on controllable generation, interactive systems, and real-time visual models.
+  - I enjoy working across the full stack of a research project, from model training and post-training to interfaces and deployment. Recent projects include MagicQuill, CausalCine, and LingBot-World-Infinity.
 
 focus:
   - Controllable generation
